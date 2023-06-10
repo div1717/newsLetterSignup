@@ -32,7 +32,7 @@ app.post("/",function(req,res){
     ]
   };
   var jsonData = JSON.stringify(data);
-  const url = "https://us10.api.mailchimp.com/3.0/lists/a2eaec9aae", // this is post url of mailchimp server where us14 is the last words from api that is the address of server and lists/listid is the address to store our subscribers
+  const url = "https://us21.api.mailchimp.com/3.0/lists/1613dcd50f", // this is post url of mailchimp server where us14 is the last words from api that is the address of server and lists/listid is the address to store our subscribers
       options = {
       method : "POST",
       auth : process.env.PASSWORD  // username:password (Username you can take wahtever you want but password will be api key)
